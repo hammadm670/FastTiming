@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fasting Timing</title><link rel="stylesheet" href="st.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3a7f5227c4.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="page-container" class="page-container blur">
+        <h1>Fasting Timer</h1>
+        <div class="container">
+            <i class="fas fa-map-maker-alt" style="font-size:20px"></i>
+            <h2 id="location">City, State, Country</h2>
+        </div>
+        <div class="container islamicDate">
+            <i class="fas fa-moon" style="font-size:40px"></i>
+            <h2 id="islamicDate">Current Date</h2>
+        </div>
+        <div class="divTimeBlocks">
+            <div class="TimeBlock">
+                <h2>Sehri Time</h2>
+                <div class="ClockWrapper">
+                    <div id="sehri" class="Clock">- - : - -</div>
+                </div>
+            </div>
+            <div class="TimeBlock">
+                <h2>Iftar Time</h2>
+                <div class="ClockWrapper">
+                    <div id="iftari" class="Clock">- - : - -</div>
+                </div>
+            </div>
+        </div>
+        <div class="loader-div">
+            <div class="loader"></div>
+        </div>
+    </div>
+</body>
+</html>
